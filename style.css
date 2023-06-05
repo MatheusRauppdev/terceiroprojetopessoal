@@ -1,0 +1,250 @@
+/*  Fontes Utilizadas nos projeto.
+font-family: 'Inter', sans-serif;
+*/
+
+:root {
+    --primary-color: #fed001;
+}
+
+html{
+    /*font-size: 62.5%;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    Forma de abreviar tudo*/
+    font: 400 62.5% 'Inter', sans-serif;
+}
+
+p, 
+a {
+    font-size: 1.6rem;
+}
+
+h1{
+    font-size: 4.8rem;
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+h3{
+    font-size: 3.2rem;
+}
+
+nav a{
+    color: inherit; /* herança do elemento pai*/
+}
+
+
+.upper {
+    text-transform: uppercase;
+}
+
+.btn {
+    background-color: var(--primary-color);
+    border-radius: 4px;
+    font-size: 1.8rem;
+    text-decoration: none;
+    padding: 1.6rem 4.6rem;
+    display: inline-block;
+    color: inherit;
+}
+
+.wrapperContainer-dark {
+    background-color: #2a2a2a;
+    color: #fafafa;
+}
+
+.wrapperContainer-light{
+    background-color: #fafafa;
+}
+
+.wrapperContainer-dark2 {
+    background-color: #003464;
+    color: #fafafa;
+}
+
+.wrapperContainer-fixed {
+    position: sticky; /* reuni a melhor posiçã odo menu fixo, porem nao tira o elemento
+    do luxo natural do elemento */
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.container {
+    max-width: 127.6rem;
+    margin: auto;
+}
+
+.section_title {
+    padding: 3.5rem 0;
+    text-align: center;
+}
+
+.section_btn {
+    margin: 7rem 0;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--primary-color);
+    padding: 2rem 0;
+}
+
+.header_nav a {
+    border: solid 1px;
+    text-decoration: none;
+    padding: 0.75em 1.15rem;
+}
+
+.header_nav ul{
+display: flex;
+gap: .6rem;
+list-style: none;
+}
+
+.header_nav a:hover {
+    background-color: black;
+}
+
+.wrapperContainer-hero{
+    background-image: linear-gradient(transparent, rgb(255, 255, 62));
+}
+
+.heroBanner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20rem;
+}
+
+.hero_title {
+    margin-bottom: 4em;
+}
+
+.wrapperContainer{
+    padding-top: 1px;
+}
+
+.cursos{
+    text-align: center;
+}
+
+.cursosContainer{
+    display: flex;
+    gap: 2rem;
+    text-align: left;
+}
+
+.curso_cards h3 {
+    font-size: 2.4rem;
+}
+
+.curso_cards p {
+    font-size: 1.8rem;
+    line-height: 1.5;
+}
+
+.cursos_cards_content{
+    padding: 1.25rem;
+    border: 1px solid #ccc;
+    border-radius: 0 0 8px 8px;
+    border-top: transparent;
+}
+
+.curso_cards{
+    /* flex é um atalho para
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 0;
+    */
+    flex: 1;
+}
+
+.curso_cards img {
+    display: block;
+    width: 100%;
+}
+
+.escola {
+    display: flex;
+    gap: 6rem;
+}
+
+.escola_title {
+    font-size: 4rem;
+    margin-top: 2rem;
+}
+
+.escola p {
+    font-size: 1.8rem;
+    line-height: 1.50;
+    font-family: 'Inter', sans-serif;
+}
+
+.escola {
+    padding-top: 6rem;
+}
+
+.contatos_adress {
+    text-align: right;
+    font: normal 400 1.8rem  "inter", sans-serif;
+    padding: 3rem 0;
+}
+
+.footer {
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 4.5rem;
+
+}
+
+.Matheus {
+    color: #fed001;
+    text-decoration: none;
+}
+
+.wrapperContainer-padded{
+    padding: 12rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
